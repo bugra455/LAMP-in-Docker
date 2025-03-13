@@ -6,7 +6,7 @@ Just put the DockerFile and docker-compose.yml into root of your project and run
 Project tree should look like this:
 ```
 THE IMPORTANT PROJECT NAME (Probably Hello World)
-├── mysql-data/
+├── mariadb-data/
 └── src/
     ├── index.php
 ├── docker-compose.yml
