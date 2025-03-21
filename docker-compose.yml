@@ -20,7 +20,7 @@ services:
     image: phpmyadmin/phpmyadmin:latest
     restart: always
     environment:
-      PMA_HOST: mysql-server
+      PMA_HOST: mariadb-server
       PMA_USER: root
       PMA_PASSWORD: secret
     ports:
